@@ -1,0 +1,12 @@
+<div class="container">
+  <div *ngFor='let value of gridValue' class="row alert alert-info">
+    <div class="col-md">
+      <span class="badge badge-dark mr-1">input</span>
+      {{value.inputText}}
+    </div>
+    <div class="col-md">
+      <span class="badge badge-dark mr-1">output</span>
+      {{value.outputText}}
+    </div>
+  </div>
+</div>
